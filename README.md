@@ -10,9 +10,9 @@ This repository contains React.js projects completed as part of The Complete Web
 
 Install Node.js and npm.
 Install required packages:
-`inline code`
-npm i
+`npm i`
+
 Start the React development server:
-`inline code`
-npm start
+`npm start`
+
 Open a browser and visit http://localhost:3000/
