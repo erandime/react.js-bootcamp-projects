@@ -6,6 +6,8 @@ This repository contains React.js projects completed as part of The Complete Web
 
 3. Keeper App: A React-based note-taking application. Users can view a collection of notes, each with a title and content. The app uses React components, props, and JavaScript map() to dynamically render notes. 
 
+4. Contact Form App: A React-based form that collects and displays a user's contact information. It uses React components, state management, and event handling to dynamically update the form. The app also demonstrates making use of previous state when updating state. After submission, the user's input is displayed in a greeting card.
+
 #### Setup Instructions
 
 Install Node.js and npm.
