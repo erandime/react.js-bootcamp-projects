@@ -8,6 +8,12 @@ This repository contains React.js projects completed as part of The Complete Web
 
 4. Contact Form App: A React-based form that collects and displays a user's contact information. It uses React components, state management, and event handling to dynamically update the form. The app also demonstrates making use of previous state when updating state. After submission, the user's input is displayed in a greeting card.
 
+5. To-Do List App: A React app that demonstrates function calls between components, complex state management, and the spread operator.
+- Function Calls Between Components: The App component passes addItem and deleteItem functions to InputArea and ToDoItem components via props. InputArea calls addItem to add tasks, and ToDoItem calls deleteItem to remove tasks.
+- Complex State Management: Tasks are stored in an array using useState. The filter method is used in deleteItem to remove tasks by index immutably.
+- Spread Operator: The spread operator (...prevItems) is used to add new tasks without mutating the existing state.
+This app shows how React handles state and function calls efficiently across components.
+
 #### Setup Instructions
 
 Install Node.js and npm.
