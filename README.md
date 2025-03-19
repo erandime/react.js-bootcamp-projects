@@ -4,7 +4,7 @@ This repository contains React.js projects completed as part of The Complete Web
 
 2. Emojipedia App: A React app that displays a collection of emojis along with their names and short descriptions. Uses React components, props, and JavaScript map() to dynamically generate and render an emoji dictionary. Data is stored in a separate JavaScript file and each entry’s description is truncated to the first 100 characters for cleaner presentation.
 
-3. Keeper App: A React-based note-taking application. Users can view a collection of notes, each with a title and content. The app uses React components, props, and JavaScript map() to dynamically render notes. 
+3. Keeper App: A React-based note-taking application that allows users to create, view, and delete notes with both titles and content. The app uses React hooks (useState) for state management and Material-UI components such as Fab (Floating Action Button) and Zoom for an interactive UI. The CreateArea component enables dynamic note creation, with an expandable input field for the title and content. Notes are rendered dynamically using the map() function, and users can delete notes with the DeleteIcon button. The app handles state updates immutably using the spread operator and filter() for deleting notes.
 
 4. Contact Form App: A React-based form that collects and displays a user's contact information. It uses React components, state management, and event handling to dynamically update the form. The app also demonstrates making use of previous state when updating state. After submission, the user's input is displayed in a greeting card.
 
